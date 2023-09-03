@@ -1,3 +1,8 @@
+mod ui;
+
+use ui::Ui;
+
 fn main() {
-    println!("Hello, world!");
+    let window: Ui = ui::create_ui();
+    ui::destroy_ui();
 }
