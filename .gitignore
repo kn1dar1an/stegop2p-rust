@@ -1,2 +1,8 @@
 # Generated files
 /target/
+
+# Intellij files
+/.idea/
+
+# Vscode files
+/.vscode/
