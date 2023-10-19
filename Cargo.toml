@@ -8,3 +8,8 @@ edition = "2021"
 [dependencies]
 libc = "0.2.147"
 ncurses = "5.101.0"
+futures = "0.3.28"
+
+[dependencies.uuid]
+version = "1.4.1"
+features = ["v4", "fast-rng", "macro-diagnostics"]
